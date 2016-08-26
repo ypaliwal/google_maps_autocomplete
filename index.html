@@ -32,7 +32,7 @@
   </head>
   <body>
     <div id="right-panel">
-      <p>Query suggestions for 'pizza near Syd':</p>
+      <p>Query suggestions for 'pizza near Toronto, ON':</p>
       <ul id="results"></ul>
     </div>
     <script>
@@ -58,7 +58,7 @@
         };
 
         var service = new google.maps.places.AutocompleteService();
-        service.getQueryPredictions({ input: 'pizza near Syd' }, displaySuggestions);
+        service.getQueryPredictions({ input: 'pizza near Toronto, ON' }, displaySuggestions);
       }
     </script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7AAj1wsbK5KeOqUDueagb-Y3lhg9KDXA&libraries=places&callback=initService"
